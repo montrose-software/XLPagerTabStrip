@@ -54,7 +54,7 @@ public class SegmentedPagerTabStripViewController: PagerTabStripViewController, 
         datasource = self
     }
     
-    private(set) var shouldUpdateSegmentedControl = true
+    public private(set) var shouldUpdateSegmentedControl = true
     
     public override func viewDidLoad() {
         super.viewDidLoad()
